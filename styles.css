@@ -1,0 +1,44 @@
+/*
+
+    selector {
+        property: value;
+        property: value;
+        property: value;
+        etc.
+    }
+
+
+    selector options:
+
+    tagname, such as p or img 
+    classname such as green or highlited 
+    tag class such as h1 green or p highlited
+
+tagname>tagmame
+classname>tagname
+tagname>classname
+classname>classname
+
+*/
+
+.nav {
+
+     list-style: none;
+     border-style: dotted;
+     width: 50%;
+     margin: auto;
+     text-align: center;
+     padding-left: 0;
+     
+}
+
+.nav>li{
+    display: inline-block;
+    border-style: outset;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Ffrance%2520flag%2F&psig=AOvVaw3E9anuHBc8nNc2U_Vq0JCf&ust=1669141464364000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCOD059Xyv_sCFQAAAAAdAAAAABAD);
+    background-image:);
+}
